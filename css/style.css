@@ -22,8 +22,7 @@ h1 {
 }
 
 main {
-    background: rgb(243, 156, 164);
-    background: linear-gradient(0deg, rgba(243, 156, 164, 1) 0%, rgba(250, 209, 210, 1) 70%);
+    background-color: whitesmoke;
 }
 
 /*----- Header -----*/
@@ -37,7 +36,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F39CA4;
+    background-color: rgba(250, 209, 210, 1);
     padding: auto;
 }
 
@@ -148,7 +147,7 @@ textarea {
 }
 
 .caja-footer {
-    background-color: #f08b95;
+    background-color: rgba(250, 209, 210, 1);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
